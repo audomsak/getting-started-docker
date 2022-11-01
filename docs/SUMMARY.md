@@ -1,10 +1,10 @@
 # Summary​
 
-- [Preface](preface.md)
+- [Docker Workshop](preface.md)
 
 ## Workshop
 
 ## Appendix
 
-- [Reference And Resource](appendix/reference-and-resource.md)
-- [Request free VM and install Docker](appendix/install-docker-free-vm.md)
+- [References And Resources](appendix/reference-and-resource.md)
+- [Request Free VM and Install Docker](appendix/install-docker-free-vm.md)
