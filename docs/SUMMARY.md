@@ -6,10 +6,9 @@
 
 - [Getting Started](tutorial/our-application/index.md)
 - [Updating our App](tutorial/updating-our-app/index.md)
-- Sharing our App
-- Persisting our DB
-- Using Bind Mounts
-- Multi-Container Apps
+- [Sharing our App](tutorial/sharing-our-app/index.md)
+- [Persisting our DB](tutorial/persisting-our-data/index.md)
+- [Multi-Container Apps](tutorial/multi-container-apps/index.md)
 
 ## Appendix
 

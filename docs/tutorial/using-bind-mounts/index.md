@@ -103,10 +103,9 @@ So, let's do it!
 1. Simply refresh the page (or open it) and you should see the change reflected in the browser almost immediately. It might
    take a few seconds for the Node server to restart, so if you get an error, just try refreshing after a few seconds.
 
-    ![Screenshot of updated label for Add button](updated-add-button.png){: style="width:75%;"}
-    {: .text-center }
+    ![Screenshot of updated label for Add button](updated-add-button.png)
 
-1. Feel free to make any other changes you'd like to make. When you're done, stop the container and build your new image
+2. Feel free to make any other changes you'd like to make. When you're done, stop the container and build your new image
    using `docker build -t getting-started .`.
 
 
@@ -120,8 +119,8 @@ of flags).
 At this point, we can persist our database and respond rapidly to the needs and demands of our investors and founders. Hooray!
 But, guess what? We received great news!
 
-**Your project has been selected for future development!** 
+**Your project has been selected for future development!**
 
 In order to prepare for production, we need to migrate our database from working in SQLite to something that can scale a
-little better. For simplicity, we'll keep with a relational database and switch our application to use MySQL. But, how 
+little better. For simplicity, we'll keep with a relational database and switch our application to use MySQL. But, how
 should we run MySQL? How do we allow the containers to talk to each other? We'll talk about that next!

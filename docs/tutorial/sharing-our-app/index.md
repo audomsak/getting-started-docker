@@ -17,7 +17,7 @@ To push an image, we first need to create a repo on Docker Hub.
 If you look on the right-side of the page, you'll see a section named **Docker commands**. This gives
 an example command that you will need to run to push to this repo.
 
-![Docker command with push example](push-command.png){: style=width:75% }
+![Docker command with push example](push-command.png)
 {: .text-center }
 
 ## Pushing our Image
@@ -45,7 +45,7 @@ an example command that you will need to run to push to this repo.
     docker tag getting-started YOUR-USER-NAME/getting-started
     ```
 
-1. Now try your push command again. If you're copying the value from Docker Hub, you can drop the 
+1. Now try your push command again. If you're copying the value from Docker Hub, you can drop the
    `tagname` portion, as we didn't add a tag to the image name. If you don't specify a tag, Docker
    will use a tag called `latest`.
 
@@ -64,11 +64,9 @@ new instance that has never seen this container image! To do this, we will use P
 
 1. Once you're logged in, click on the "+ ADD NEW INSTANCE" link in the left side bar. (If you don't see it, make your browser a little wider.) After a few seconds, a terminal window will be opened in your browser.
 
-    ![Play with Docker add new instance](pwd-add-new-instance.png){: style=width:75% }
-{: .text-center }
+    ![Play with Docker add new instance](pwd-add-new-instance.png)
 
-
-1. In the terminal, start your freshly pushed app.
+2. In the terminal, start your freshly pushed app.
 
     ```bash
     docker run -dp 3000:3000 YOUR-USER-NAME/getting-started
@@ -76,7 +74,7 @@ new instance that has never seen this container image! To do this, we will use P
 
     You should see the image get pulled down and eventually start up!
 
-1. Click on the 3000 badge when it comes up and you should see the app with your modifications! Hooray!
+3. Click on the 3000 badge when it comes up and you should see the app with your modifications! Hooray!
     If the 3000 badge doesn't show up, you can click on the "Open Port" button and type in 3000.
 
 ## Recap
@@ -88,5 +86,5 @@ can use the latest version of the image.
 
 Now that we have that figured out, let's circle back around to what we noticed at the end of the last
 section. As a reminder, we noticed that when we restarted the app, we lost all of our todo list items.
-That's obviously not a great user experience, so let's learn how we can persist the data across 
+That's obviously not a great user experience, so let's learn how we can persist the data across
 restarts!
