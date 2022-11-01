@@ -10,3 +10,12 @@ Through this workshop, you’ll quickly learn how to work with containers and Do
 - Using volumes to persist data
 - Using bind mounts to support development
 - Using container networking to support multi-container applications
+
+## Prerequisites
+
+- Docker Account [(Sign up)](https://hub.docker.com/signup)
+
+- Docker (Any one of these options)
+  - [Install Docker on your machine](https://docs.docker.com/get-docker/)
+  - [Docker Playground](https://labs.play-with-docker.com)
+  - [Request free VM and install Docker](appendix/install-docker-free-vm.md)
