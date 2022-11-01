@@ -4,6 +4,13 @@
 
 ## Workshop
 
+- [Getting Started](tutorial/our-application/index.md)
+- Updating our App
+- Sharing our App
+- Persisting our DB
+- Using Bind Mounts
+- Multi-Container Apps
+
 ## Appendix
 
 - [References And Resources](appendix/reference-and-resource.md)
