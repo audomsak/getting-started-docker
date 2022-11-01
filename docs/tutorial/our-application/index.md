@@ -7,8 +7,7 @@ building an app to prove out your MVP (minimum viable product). You want
 to show how it works and what it's capable of doing without needing to
 think about how it will work for a large team, multiple developers, etc.
 
-![Todo List Manager Screenshot](todo-list-sample.png){: style="width:50%;" }
-{ .text-center }
+![Todo List Manager Screenshot](todo-list-sample.png)
 
 ## Getting our App
 

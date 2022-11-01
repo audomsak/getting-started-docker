@@ -5,7 +5,7 @@
 ## Workshop
 
 - [Getting Started](tutorial/our-application/index.md)
-- Updating our App
+- [Updating our App](tutorial/updating-our-app/index.md)
 - Sharing our App
 - Persisting our DB
 - Using Bind Mounts
